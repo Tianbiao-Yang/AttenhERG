@@ -17,7 +17,7 @@
 
 ### Concerning inference, the code details are as follows:
 
-After running python AttenhERG_Prediction.py, the calculated metrics in order are Accuracy, MCC, BAC, F1 score, AUROC, AUPRC, Precision, and Recall.
+After running `python AttenhERG_Prediction.py`, the calculated metrics in order are Accuracy, MCC, BAC, F1 score, AUROC, AUPRC, Precision, and Recall.
 
 ### User application of the AttenhERG model
 
