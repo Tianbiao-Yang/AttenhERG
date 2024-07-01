@@ -1,0 +1,5 @@
+﻿hERG,smiles
+1,COc1cc(-c2cn([C@H]3C[C@@H](c4ccccc4)CCN(CC(F)(F)F)C3=O)nn2)ccc1-n1cnc(C)c1
+0,COc1cc(-c2cn([C@H]3C[C@@H](C(F)(F)F)CN(CC(F)(F)F)C3=O)nn2)ccc1-n1cnc(C)c1
+1,Cc1nn(C)c(C)c1N(C(F)F)S(=O)(=O)c1c(Cl)cc(CCCC2CCN(C)CC2)cc1Cl
+0,Cc1nn(C)c(C)c1NS(=O)(=O)c1c(Cl)cc(-c2ccnc(N3CCNCC3)c2)cc1Cl
