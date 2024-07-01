@@ -176,7 +176,7 @@ def gen_descriptor_data(smilesList):
             smiles_to_fingerprint_array[smiles] = arrayrep
             
         except:
-            print(smiles)
+            # print(smiles)
             time.sleep(3)
     return smiles_to_fingerprint_array
 
