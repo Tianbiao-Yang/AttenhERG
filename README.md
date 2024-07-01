@@ -19,7 +19,7 @@
 
 After running python AttenhERG_Prediction.py, the calculated metrics in order are Accuracy, MCC, BAC, F1 score, AUROC, AUPRC, Precision, and Recall.
 
-## User application of the AttenhERG model
+### User application of the AttenhERG model
 
 1. The inference process is conducted through `AttenhERG_Userup.py`, using compound SMILES as input.
 2. User-inputted files should be placed in the `./userup` folder.
