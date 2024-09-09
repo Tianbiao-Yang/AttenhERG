@@ -8,7 +8,7 @@
 
 ## Trained models
 
-  The trained models are stored in `./saved_models`, specifically under the name `model_2023_Aug_10_100_1_200_3_2_4.5_3.5_83.pt`.
+After running `python AttenhERG.py`, you will train the model. Meanwhile, the trained models are stored in `./saved_models`, specifically under the name `model_2023_Aug_10_100_1_200_3_2_4.5_3.5_83.pt`.
 
 ## Dataset
   The dataset used for training and validating the model is located in the `./data/` folder.
