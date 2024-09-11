@@ -13,7 +13,7 @@
 
 ### Training the model
 
-We were training the model using the `AttenhERG.py` script on a Tesla P40 GPU. To train the model, please use the following command in the terminal: `python AttenhERG.py`.
+We were training the model using the `AttenhERG.py` script on a `Tesla P40 GPU`. To train the model, please use the following command in the terminal: `python AttenhERG.py`.
 
 ### Hyperparameter search 
 
