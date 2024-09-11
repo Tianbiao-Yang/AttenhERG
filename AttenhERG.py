@@ -302,7 +302,7 @@ with open('./logs/' + logs_names+ '_train_detail' + '.logs','w' ) as wpklf:
 """ Test the dataset """
 
 best_model_name = 'model_'+ logs_names + '_'+str(best_param["roc_epoch"])+'.pt'   
-test_type_list = ['valid','test', 'testrev', 'testex1','testex2','testex3','testex4','Insilico']
+test_type_list = ['valid','test', 'testrev', 'testex1','testex2','testex3','testex4']
 best_model = torch.load('saved_models/'+ best_model_name)
 print(best_model_name)
 print(best_model)
