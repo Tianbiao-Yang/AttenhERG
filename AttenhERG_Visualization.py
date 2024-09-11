@@ -47,7 +47,6 @@ from rdkit.Chem.Draw.MolDrawing import DrawingOptions
 from rdkit import RDLogger
 RDLogger.DisableLog('rdApp.*')
 
-%matplotlib inline
 from numpy.polynomial.polynomial import polyfit
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
