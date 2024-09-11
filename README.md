@@ -36,3 +36,9 @@ After running `python AttenhERG_Prediction.py`, the calculated metrics in order 
 3. The molecular file provided by the user in SMILES format is located at `./userup/user_input.csv`.
 4. After running `python AttenhERG_Userup.py`, the resulting file, `./userup/result_user_input.xlsx`, is generated. This file includes Index_ID, Structure, Predict_Score, Entropy_Uncertainty, MCDropout_Uncertainty, and Smiles. 
 5. Molecular image SVG files are temporarily stored in the `./userup/svg_data` folder and are cleared at the end of the script.
+
+## Case
+
+In our case study, running `python AttenhERG_Visualization.py` provides a visualization of the model-derived weights, illustrating how molecular features are captured by the model.
+
+
