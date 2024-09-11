@@ -17,7 +17,7 @@ We were training the model using the `AttenhERG.py` script on a Tesla P40 GPU. T
 
 ### Hyperparameter search 
 
-
+We performed hyperparameter optimization by running `python AttenhERG_Hyperparameter.py`. Relevant search details are annotated in the code. Specifically, the selection range for the hidden units was [50, 100, 150, 200, 250, 300]; you can choose one of these values to modify `fingerprint_dim`. The selection range for dropout was [0.1, 0.3, 0.5]; you can select one to adjust `p_dropout`. The L2 regularization rate had a selection range of [10<sup>-3.5</sup>, 10<sup>-4</sup>, 10<sup>-4.5</sup>]; you can pick one of these values to change `weight_decay`.
 
 ### Selected trained model
 
