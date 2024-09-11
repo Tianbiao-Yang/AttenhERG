@@ -6,12 +6,22 @@
 
   To set up the environment, you can utilize the `environment.yaml` file, representing the conda environment for this project. Alternatively, you have the option to deploy the environment using the `requirement.txt` file.
 
-## Trained models
-
-After running `python AttenhERG.py`, you will train the model. Meanwhile, the trained models are stored in `./saved_models`, specifically under the name `model_2023_Aug_10_100_1_200_3_2_4.5_3.5_83.pt`.
-
 ## Dataset
   The dataset used for training and validating the model is located in the `./data/` folder.
+  
+## Trained models
+
+### Training the model
+
+We were training the model using the `AttenhERG.py` script on a Tesla P40 GPU. To train the model, please use the following command in the terminal: `python AttenhERG.py`.
+
+### Hyperparameter search 
+
+
+
+### Selected trained model
+
+Meanwhile, the trained models are stored in `./saved_models`, specifically under the name `model_2023_Aug_10_100_1_200_3_2_4.5_3.5_83.pt`.
 
 ## Inference
 
