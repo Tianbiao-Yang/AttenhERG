@@ -269,7 +269,7 @@ logs_names = '_'.join([str(i) for i in [time_value[-1],time_value[1],time_value[
 """ Test the dataset """
 
 best_model_name = 'model_'+ logs_names + '_'+str(best_epoch)+'.pt'   
-test_type_list = ['train','valid','test', 'testrev', 'testex1','testex2','testex3','testex4']
+test_type_list = ['train','valid','test', 'testrev', 'testex4']
 best_model = torch.load('saved_models/'+ best_model_name)
 print(best_model_name)
 # print(best_model)
