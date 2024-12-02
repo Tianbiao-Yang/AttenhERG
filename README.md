@@ -21,13 +21,13 @@ We performed hyperparameter optimization by running `python AttenhERG_Hyperparam
 
 ### Best trained model
 
-Meanwhile, the trained models are stored in `./saved_models`, specifically under the name `model_2023_Aug_10_100_1_200_3_2_4.5_3.5_83.pt`.
+Meanwhile, the trained models are stored in `./saved_models`, specifically under the name `model_2023_Aug_10_100_1_200_3_2_4.5_3.5_83.pt`. For External Test Sets 1–3, the trained models are stored in `saved_models/external_models/`.
 
 ## Inference
 
 ### Concerning inference, the code details are as follows:
 
-After running `python AttenhERG_Prediction.py`, the calculated metrics in order are Accuracy, MCC, BAC, F1 score, AUROC, AUPRC, Precision, and Recall.
+After running `python AttenhERG_Prediction.py`, the calculated metrics in order are Accuracy, MCC, BAC, F1 score, AUROC, AUPRC, Precision, and Recall. 
 
 ### User application of the AttenhERG model
 
