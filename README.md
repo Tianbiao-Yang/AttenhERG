@@ -21,7 +21,7 @@ We performed hyperparameter optimization by running `python AttenhERG_Hyperparam
 
 ### Best trained model
 
-Meanwhile, the trained models are stored in `./saved_models`, specifically under the name `model_2023_Aug_10_100_1_200_3_2_4.5_3.5_83.pt`. For External Test Sets 1–3, the trained models are stored in `saved_models/external_models/`.
+Meanwhile, the trained models are stored in `./saved_models`, specifically under the name `model_2023_Aug_10_100_1_200_3_2_4.5_3.5_83.pt`. For external test sets 1–3, the trained models are stored in `saved_models/external_models/`.
 
 ## Inference
 
